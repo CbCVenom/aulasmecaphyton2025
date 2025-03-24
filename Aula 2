@@ -1,0 +1,44 @@
+# # Ex 01
+# print ("Cristiano")
+#
+# # Ex 02
+# a=3
+# b=5
+# print (2*a*3*b)
+#
+# # Ex 03
+# num1 = 1
+# num2 = 2
+# num3 = 3.5
+# soma = num1+num2+num3
+# print(soma)
+#
+# print(type(num1))
+# print(type(num3))
+#
+# # Limitar casas decimais com f"(f string) formata limitando as casas decimais
+# numero = 4.587985
+# print(f"O número com três casa decimais é {numero:.3f}.")
+
+# print(10 % 3)
+# print(10 // 3)
+# print(10 ** 3)
+
+# nota = 8
+# media = 7
+# aprovado = nota >= media
+# print(aprovado)
+
+# a variavel sempre vai antes do input
+
+# nome_comp = input("Nome completo: ")
+# idade = int(input("idade: "))
+# altura = float(input("altura: "))
+# print(nome_comp)
+# print(idade)
+# print(altura)
+
+anos = int(input("Anos de serviço:"))
+valor_por_ano = float(input("Valor por ano:"))
+bonus = anos * valor_por_ano
+print("Bônus de R$",bonus)
